@@ -44,4 +44,4 @@ except socket.error:
     sys.exit()
 
 finally:
-    print(f"Finished with {ports_number} open doors!")
+    print(f"Finished with {ports_number} open ports!")
