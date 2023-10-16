@@ -21,11 +21,12 @@ print("-" * 50)
 
 try:
     for port in range (first_port,last_port):
+        print(f"Scanning port: {port}...")
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket.setdefaulttimeout(1)
         result = s.connect_ex((target, port))
 
-        if result == 0:
+        if result == 0: 
             ports_number = ports_number + 1 
             print(f"Port {port} is open!")
         
