@@ -1,5 +1,5 @@
 # portscanner
-Bad and inefficient port scanner :) Just learning some networking
+Bad and inefficient port scanner. Just learning some networking :)
 --- 
 It works by scanning in a given ip adress all the open ports in the given port range.
 
